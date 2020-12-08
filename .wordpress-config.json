@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://34.94.105.180",
-  "protocol": "https",
+  "protocol": "http",
   "hostingWPCOM": false,
   "useACF": true,
   "includedRoutes": [
