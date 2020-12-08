@@ -19,7 +19,7 @@ console.log(typeof process.env.WP_HOSTING_WPCOM);
 const hostingWPCOM = process.env.WP_HOSTING_WPCOM &&  process.env.WP_HOSTING_WPCOM === "true" ? true: false; 
 if (process.env.WP_BASE_URL) {
   wordpressConfig.baseUrl = process.env.WP_BASE_URL; 
-  wordpressConfig.protocol = process.env.WP_PROTOCOL ? process.env.WP_PROTOCOL : "https";
+  wordpressConfig.protocol = process.env.WP_PROTOCOL ? process.env.WP_PROTOCOL : "http";
   if (hostingWPCOM) {
     wordpressConfig.hostingWPCOM = true;
     wordpressConfig.auth = {};
